@@ -2,10 +2,9 @@
     <div id="about" class="py-20" style="margin-top: 8rem;">
       <div class="container mx-auto about__container">
         <div class="w-full about__me">
-          <div class="about__me-image relative h-0 pb-100">
+          <div class="about__me-image">
             <img
-              class="absolute object-cover w-full h-full rounded-md transform hover:rotate-0 transition duration-300"
-              src="../../assets/me-about.png"
+              src="../assets/me-about.png"
               alt="About"
             />
           </div>
@@ -50,7 +49,7 @@
   </template>
   
 <script lang="ts">
-import '../../style.css'
+import '../style.css'
 import { defineComponent } from 'vue'
 
 export default defineComponent({
