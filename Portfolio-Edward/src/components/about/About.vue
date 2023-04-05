@@ -49,17 +49,17 @@
     </div>
   </template>
   
-  <script>
-
+<script lang="ts">
 import '../../style.css'
+import { defineComponent } from 'vue'
 
+export default defineComponent({
+  name: "About",
+  components: {
+  },
+})
+</script>
 
-  export default {
-    name: "About",
-    components: {
-    },
-  };
-  </script>
   <style scoped>
   #about {
     margin-top: 8rem;
