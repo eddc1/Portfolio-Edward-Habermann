@@ -2,7 +2,7 @@
 
   <div>
     <Header />
-    <!-- <Nav /> -->
+    <Nav />
     <About />
     <Experience />
     <Services />
@@ -19,7 +19,7 @@
 
 import { defineComponent } from 'vue'
 import Header from './components/Header.vue';
-// import Nav from './components/nav/Nav';
+import Nav from './components/Nav.vue';
 import About from './components/About.vue'
 import Experience from './components/Experience.vue';
 import Services from './components/Services.vue';
@@ -32,7 +32,7 @@ import Footer from './components/Footer.vue';
 export default defineComponent({
   name: 'App',
   components: {
-    // Nav,
+    Nav,
     Header,
     About,
     Experience,
