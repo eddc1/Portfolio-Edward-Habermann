@@ -39,7 +39,7 @@
             >
             <i class="bi bi-check-circle"></i>
               <div>
-                <h4 class="text-lg font-bold text-gray-600">{{ skill.name }}</h4>
+                <h4 class="text-lg font-bold">{{ skill.name }}</h4>
                 <small class="text-gray-600">{{ skill.level }}</small>
               </div>
             </div>
