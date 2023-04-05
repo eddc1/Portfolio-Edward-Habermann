@@ -5,7 +5,7 @@
     <!-- <Nav /> -->
     <About />
     <Experience />
-    <!-- <Services /> -->
+    <Services />
     <Portfolio />
     <!-- <Testimonials />
     <Contact />
@@ -22,7 +22,7 @@ import Header from './components/Header.vue';
 // import Nav from './components/nav/Nav';
 import About from './components/About.vue'
 import Experience from './components/Experience.vue';
-// import Services from './components/services/Services';
+import Services from './components/Services.vue';
 import Portfolio from './components/Portfolio.vue';
 // import Testimonials from './components/testimonials/Testimonials';
 // import Contact from './components/contact/Contact';
@@ -36,7 +36,7 @@ export default defineComponent({
     Header,
     About,
     Experience,
-    // Services,
+    Services,
     Portfolio,
     // Testimonials,
     // Contact,

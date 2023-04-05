@@ -49,7 +49,7 @@
       id: 1,
       image: IMG1,
       title: "Portfolio",
-      github: 'https://github.com/eddc1/Portfolio',
+      github: 'https://github.com/eddc1/Portfolio-Edward-Habermann',
       demo: 'https://dribbble.com/shots/',
     },
     {
