@@ -9,6 +9,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@types/vue": "^2.0.0",
+    "bootstrap-icons": "^1.10.4",
     "vue": "^3.2.47"
   },
   "devDependencies": {
