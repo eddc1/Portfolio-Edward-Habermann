@@ -14,8 +14,8 @@ Die Webseite besteht aus mehreren Abschnitten, darunter eine Hauptseite, eine Se
 ## Installation
 Um das Projekt lokal auszuführen, benötigen Sie Node.js. Folgen Sie diesen Schritten:
 
-1. Klonen Sie das Repository: `git clone https://github.com/eddc1/portfolio.git`
-2. Navigieren Sie zum Repository-Ordner: `cd portfolio`
+1. Klonen Sie das Repository: `git clone https://github.com/eddc1/Portfolio-Edward-Habermann.git`
+2. Navigieren Sie zum Repository-Ordner: `cd Portfolio-Edward-Habermann`
 3. Installieren Sie die erforderlichen Pakete: `npm install`
 4. Starten Sie den Entwicklungs-Server: `npm run dev`
 
