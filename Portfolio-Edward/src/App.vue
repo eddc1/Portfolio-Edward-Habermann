@@ -4,12 +4,12 @@
     <Header />
     <!-- <Nav /> -->
     <About />
-    <!-- <Experience />
-    <Services />
+    <Experience />
+    <!-- <Services />
     <Portfolio />
     <Testimonials />
     <Contact />
-    <Footer /> -->
+    <Footer />  -->
   </div>
 
 </template>
@@ -21,7 +21,7 @@ import { defineComponent } from 'vue'
 import Header from './components/Header.vue';
 // import Nav from './components/nav/Nav';
 import About from './components/About.vue'
-// import Experience from './components/experience/Experience';
+import Experience from './components/Experience.vue';
 // import Services from './components/services/Services';
 // import Portfolio from './components/portfolio/Portfolio';
 // import Testimonials from './components/testimonials/Testimonials';
@@ -35,7 +35,7 @@ export default defineComponent({
     // Nav,
     Header,
     About,
-    // Experience,
+    Experience,
     // Services,
     // Portfolio,
     // Testimonials,

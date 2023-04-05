@@ -1,7 +1,7 @@
 <template>
     <div id="about" class="py-20" style="margin-top: 8rem;">
-      <div class="container mx-auto about__container">
-        <div class="w-full about__me">
+      <div class="container about__container">
+        <div class="about__me">
           <div class="about__me-image">
             <img
               src="../assets/me-about.png"
@@ -9,28 +9,25 @@
             />
           </div>
         </div>
-        <div class="w-full about__content">
-          <div class="space-y-8">
-            <div class="flex items-center space-x-4">
+        <div class="about__content">
+          <div className="about__cards">
+            <div class="about__card">
               <i class="bi bi-award-fill about__icon"></i>
               <h3 class="text-lg font-bold">Experience</h3>
+              <p class="text-gray-600">1+ Year Working</p>
             </div>
-            <p class="text-gray-600">1+ Year Working</p>
-          </div>
-          <div class="space-y-8">
-            <div class="flex items-center space-x-4">
+            <div class="about__card">
               <i class="bi bi-folder2-open about__icon"></i>
               <h3 class="text-lg font-bold">Projects</h3>
-            </div>
             <p class="text-gray-600">4 Completed</p>
           </div>
-          <div class="space-y-8">
-            <div class="flex items-center space-x-4">
-              <i class="bi bi-person-circle about__icon"></i>
-              <h3 class="text-lg font-bold">Downloads</h3>
-            </div>
+          <div class="about__card">
+            <i class="bi bi-person-circle about__icon"></i>
+            <h3 class="text-lg font-bold">Downloads</h3>
             <p class="text-gray-600">1.000+ Worldwide</p>
           </div>
+          </div>
+          
           <p class="text-lg mt-8">
             I'm a self-taught programmer with over a year of experience and four
             completed projects. My apps have been downloaded by over a thousand
