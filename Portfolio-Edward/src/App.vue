@@ -8,8 +8,8 @@
     <Services />
     <Portfolio />
     <!-- <Testimonials />
-    <Contact />
-    <Footer />   -->
+    <Contact />  -->
+    <Footer />   
   </div>
 
 </template>
@@ -26,7 +26,7 @@ import Services from './components/Services.vue';
 import Portfolio from './components/Portfolio.vue';
 // import Testimonials from './components/testimonials/Testimonials';
 // import Contact from './components/contact/Contact';
-// import Footer from './components/footer/Footer';
+import Footer from './components/Footer.vue';
 
 
 export default defineComponent({
@@ -40,7 +40,7 @@ export default defineComponent({
     Portfolio,
     // Testimonials,
     // Contact,
-    // Footer,
+    Footer,
   },
 });
 </script>
