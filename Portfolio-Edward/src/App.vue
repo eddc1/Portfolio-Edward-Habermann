@@ -7,8 +7,8 @@
     <Experience />
     <Services />
     <Portfolio />
-    <!-- <Testimonials />
-    <Contact />  -->
+    <!-- <Testimonials /> -->
+    <Contact />
     <Footer />   
   </div>
 
@@ -25,7 +25,7 @@ import Experience from './components/Experience.vue';
 import Services from './components/Services.vue';
 import Portfolio from './components/Portfolio.vue';
 // import Testimonials from './components/testimonials/Testimonials';
-// import Contact from './components/contact/Contact';
+import Contact from './components/Contact.vue';
 import Footer from './components/Footer.vue';
 
 
@@ -39,7 +39,7 @@ export default defineComponent({
     Services,
     Portfolio,
     // Testimonials,
-    // Contact,
+    Contact,
     Footer,
   },
 });
