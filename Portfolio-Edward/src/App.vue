@@ -15,8 +15,9 @@
 </template>
 
 
-<script>
+<script lang="ts">
 
+import { defineComponent } from 'vue'
 // import Header from './components/header/Header';
 // import Nav from './components/nav/Nav';
 import About from './components/about/About.vue'
@@ -28,7 +29,7 @@ import About from './components/about/About.vue'
 // import Footer from './components/footer/Footer';
 
 
-export default {
+export default defineComponent({
   name: 'App',
   components: {
     // Nav,
@@ -41,6 +42,6 @@ export default {
     // Contact,
     // Footer,
   },
-};
+});
 </script>
 
