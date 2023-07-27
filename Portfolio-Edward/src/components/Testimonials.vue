@@ -21,8 +21,7 @@
             slideShadows: true,
             shadowOffset: 20,
             shadowScale: 0.94,
-        }"
-        >
+            }">
           <swiper-slide v-for="(testimonial, index) in testimonials" :key="index" class="testimonial">
             <div class="client__avatar rounded-full overflow-hidden border-primary-variant border-8 mx-auto">
               <img :src="testimonial.avatar" :alt="testimonial.name" width="50" height="50"/>

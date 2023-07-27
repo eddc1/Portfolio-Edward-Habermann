@@ -1,18 +1,29 @@
-# Vue 3 + TypeScript + Vite
+# Portfolio Webseite
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Dies ist meine persönliche Portfolio Webseite, die mit Vue.js, Tailwind CSS und Vite erstellt wurde. Die Webseite dient als meine Online-Visitenkarte und soll zukünftigen Arbeitgebern einen Einblick in meine Fähigkeiten und Erfahrungen geben.
 
-## Recommended IDE Setup
+## Überblick
+Die Webseite besteht aus mehreren Abschnitten, darunter eine Hauptseite, eine Seite mit Informationen über mich und meine Arbeit, eine Seite mit meinen Projekten sowie eine Kontaktseite.
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+## Technologien
+- Vite
+- Vue.js
+- TypeScript
+- Tailwind CSS
 
-## Type Support For `.vue` Imports in TS
+## Installation
+Um das Projekt lokal auszuführen, benötigen Sie Node.js. Folgen Sie diesen Schritten:
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
+1. Klonen Sie das Repository: `git clone https://github.com/eddc1/Portfolio-Edward-Habermann.git`
+2. Navigieren Sie zum Repository-Ordner: `cd Portfolio-Edward-Habermann`
+3. Installieren Sie die erforderlichen Pakete: `npm install`
+4. Starten Sie den Entwicklungs-Server: `npm run dev`
 
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
+## Projekte
+Auf der Seite "Projekte" finden Sie eine Liste meiner bisherigen Projekte mit Links zu den entsprechenden GitHub-Repositories und Live-Demos.
 
-1. Disable the built-in TypeScript Extension
-   1. Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-   2. Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
+## Kontakt
+Wenn Sie Fragen oder Kommentare haben oder mich für eine Zusammenarbeit kontaktieren möchten, besuchen Sie bitte meine Kontaktseite.
+
+## Autor
+Diese Portfolio Webseite wurde von Edward Habermann erstellt.
